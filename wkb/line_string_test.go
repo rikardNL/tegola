@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/terranodo/tegola/wkb"
+	"github.com/rikardNL/tegola/wkb"
 )
 
 func cmpLines(l1, l2 wkb.LineString) (bool, string) {

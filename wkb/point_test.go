@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/terranodo/tegola/wkb"
+	"github.com/rikardNL/tegola/wkb"
 )
 
 func cmpPoint(p1, p2 wkb.Point) (bool, string) {

@@ -6,9 +6,9 @@ import (
 	"log"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/mvt"
-	"github.com/terranodo/tegola/wkb"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/mvt"
+	"github.com/rikardNL/tegola/wkb"
 )
 
 // TileExample is a quick example of how to use the interface to marshal a tile.

@@ -3,9 +3,9 @@ package server
 import (
 	"fmt"
 
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/basic"
-	"github.com/terranodo/tegola/mvt"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/basic"
+	"github.com/rikardNL/tegola/mvt"
 )
 
 //	creates a debug layer with z/x/y encoded as a point

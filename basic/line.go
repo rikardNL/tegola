@@ -1,6 +1,6 @@
 package basic
 
-import "github.com/terranodo/tegola"
+import "github.com/rikardNL/tegola"
 
 // Line is a basic line type which is made up of two or more points that don't
 // interect.

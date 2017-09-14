@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/terranodo/tegola/maths"
+	"github.com/rikardNL/tegola/maths"
 )
 
 const (

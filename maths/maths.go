@@ -7,7 +7,7 @@ package maths
 import (
 	"math"
 
-	"github.com/terranodo/tegola"
+	"github.com/rikardNL/tegola"
 )
 
 const (

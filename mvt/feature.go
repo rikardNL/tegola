@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/mvt/vector_tile"
-	"github.com/terranodo/tegola/wkb"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/mvt/vector_tile"
+	"github.com/rikardNL/tegola/wkb"
 )
 
 // errors

@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-import "github.com/terranodo/tegola"
+import "github.com/rikardNL/tegola"
 
 /*
 This purpose of this file is to house the wkt functions. These functions are

@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/mvt/vector_tile"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/mvt/vector_tile"
 )
 
 // Layer describes a layer in the tile. Each layer can have multiple features

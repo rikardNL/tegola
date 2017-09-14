@@ -3,7 +3,7 @@ package tegola_test
 import (
 	"testing"
 
-	"github.com/terranodo/tegola"
+	"github.com/rikardNL/tegola"
 )
 
 func TestTileNum2Deg(t *testing.T) {

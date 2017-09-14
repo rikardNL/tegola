@@ -8,12 +8,12 @@ import (
 
 	"github.com/jackc/pgx"
 
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/basic"
-	"github.com/terranodo/tegola/mvt"
-	"github.com/terranodo/tegola/mvt/provider"
-	"github.com/terranodo/tegola/util/dict"
-	"github.com/terranodo/tegola/wkb"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/basic"
+	"github.com/rikardNL/tegola/mvt"
+	"github.com/rikardNL/tegola/mvt/provider"
+	"github.com/rikardNL/tegola/util/dict"
+	"github.com/rikardNL/tegola/wkb"
 )
 
 // layer holds information about a query.

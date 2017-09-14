@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/terranodo/tegola/server"
+	"github.com/rikardNL/tegola/server"
 )
 
 var (

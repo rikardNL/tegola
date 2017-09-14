@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/terranodo/tegola/wkb"
+	"github.com/rikardNL/tegola/wkb"
 )
 
 func cmpPolygons(p1, p2 wkb.Polygon) (bool, string) {

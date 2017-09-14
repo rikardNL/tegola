@@ -1,6 +1,6 @@
 package basic
 
-import "github.com/terranodo/tegola"
+import "github.com/rikardNL/tegola"
 
 // Collection type can represent one or more other basic types.
 type Collection []interface {

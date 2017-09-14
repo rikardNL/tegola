@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/dimfeld/httptreemux"
-	"github.com/terranodo/tegola/mvt"
-	"github.com/terranodo/tegola/server"
+	"github.com/rikardNL/tegola/mvt"
+	"github.com/rikardNL/tegola/server"
 )
 
 func TestHandleMapZXY(t *testing.T) {

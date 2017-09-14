@@ -1,6 +1,6 @@
 package basic
 
-import "github.com/terranodo/tegola"
+import "github.com/rikardNL/tegola"
 
 // Point describes a simple 2d point
 type Point [2]float64

@@ -1,9 +1,9 @@
 # Tegola
 
 [![Build Status](https://travis-ci.org/terranodo/tegola.svg?branch=master)](https://travis-ci.org/terranodo/tegola)
-[![Report Card](https://goreportcard.com/badge/github.com/terranodo/tegola)](https://goreportcard.com/report/github.com/terranodo/tegola)
-[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/terranodo/tegola)
-[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/terranodo/tegola/blob/master/LICENSE.md)
+[![Report Card](https://goreportcard.com/badge/github.com/rikardNL/tegola)](https://goreportcard.com/report/github.com/rikardNL/tegola)
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rikardNL/tegola)
+[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/rikardNL/tegola/blob/master/LICENSE.md)
 
 Tegola is a high performance vector tile server delivering [Mapbox Vector Tiles](https://github.com/mapbox/vector-tile-spec) leveraging PostGIS as the data provider.
 
@@ -13,7 +13,7 @@ Tegola is a high performance vector tile server delivering [Mapbox Vector Tiles]
 - [x] Support for PostGIS data provider.
 
 ## Running Tegola
-1. Download the appropriate binary of tegola for your platform via the [release page](https://github.com/terranodo/tegola/releases).
+1. Download the appropriate binary of tegola for your platform via the [release page](https://github.com/rikardNL/tegola/releases).
 2. Setup your config file and run. Tegola expects a `config.toml` to be in the same directory as the binary. You can set a different location for the `config.toml` using a command flag:
 
 ```
@@ -124,6 +124,15 @@ name = "zoning"							# used in the URL to reference this map (/maps/:map_name)
 	min_zoom = 10						# minimum zoom level to include this layer
 	max_zoom = 18						# maximum zoom level to include this layer
 
+[[cache]]
+type = "redis"
+
+	[[cache.redis]]
+	connection = "socket" 			# or tcp
+	socket = "/tmp/socket"			# only used if connection is socket
+	host = "localhost"				# only used if connection is tcp
+	port = 6379						# only used if connection is tcp
+	ttl = 0 						# seconds (0 = no ttl)
 
 ```
 

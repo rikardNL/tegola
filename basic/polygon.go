@@ -1,6 +1,6 @@
 package basic
 
-import "github.com/terranodo/tegola"
+import "github.com/rikardNL/tegola"
 
 // Polygon describes a basic polygon; made up of multiple lines.
 type Polygon []Line

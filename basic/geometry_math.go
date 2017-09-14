@@ -3,8 +3,8 @@ package basic
 import (
 	"fmt"
 
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/maths/webmercator"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/maths/webmercator"
 )
 
 // ApplyToPoints applys the given function to each point in the geometry and any sub geometries, return a new transformed geometry.

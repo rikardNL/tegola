@@ -3,9 +3,9 @@ package server_test
 import (
 	"log"
 
-	"github.com/terranodo/tegola"
-	"github.com/terranodo/tegola/mvt"
-	"github.com/terranodo/tegola/server"
+	"github.com/rikardNL/tegola"
+	"github.com/rikardNL/tegola/mvt"
+	"github.com/rikardNL/tegola/server"
 )
 
 const (
